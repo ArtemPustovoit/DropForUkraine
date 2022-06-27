@@ -3,7 +3,7 @@
     "target": "es6",
     "module": "commonjs",
     "rootDir": "./src",
-    "outDir": "../helpukraine-deploy/src",
+    "outDir": "../dropforukraine-deploy/src",
     "esModuleInterop": true,
     "strict": true
   },

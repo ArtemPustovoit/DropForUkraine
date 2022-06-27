@@ -37,7 +37,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "codegen:schema": "npx apollo client:download-schema --endpoint=http://localhost:9002/api",
+    "codegen:schema": "npx apollo client:download-schema --endpoint=http://localhost:9003/api",
     "codegen:generate": "npx apollo client:codegen --localSchemaFile=schema.json --includes=src/**/*.ts --globalTypesFile=./src/lib/graphql/globalTypes.ts --target=typescript"
   },
   "eslintConfig": {
@@ -55,7 +55,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:9002",
+  "proxy": "http://localhost:9003",
   "devDependencies": {
     "@types/dompurify": "^2.3.3",
     "@types/jest": "^28.1.2",

@@ -8,7 +8,7 @@ import { Box } from "@mui/material";
 import { useValue } from "../Home/components/context/ContextProvider";
 import "mapbox-gl/dist/mapbox-gl.css";
 import Geocoder from "./Geocoder";
-import { Item, Button } from "antd";
+import mapboxgl from "mapbox-gl"; // This is a dependency of react-map-gl even if you didn't explicitly install it
 
 const AddLocation = () => {
   const {

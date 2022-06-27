@@ -17,7 +17,7 @@
     "noImplicitAny": false
   },
 
-  "include": ["src", "../lib/context"],
+  "include": ["src"],
   "browserslist": ["defaults", "not ie 11"],
 
   "devDependencies": {
